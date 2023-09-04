@@ -1,0 +1,483 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "marco_trabajo",
+    "dateExported": "2023-08-14T12:38:53.620Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "user",
+            "containerId": "41d9aa9c-82aa-4e34-a5f6-268833271572",
+            "created": "2023-07-12T16:05:10.299Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "64d845e2-8f0d-4626-ac8e-b0fc131ea645",
+            "name": "token",
+            "containerId": "41d9aa9c-82aa-4e34-a5f6-268833271572",
+            "created": "2023-07-12T16:05:10.301Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "b0c1270c-d4b2-455d-99a8-7d6636e0f66d",
+            "name": "auditoria",
+            "containerId": "",
+            "created": "2023-07-12T16:05:10.305Z",
+            "sortNum": 25000
+        },
+        {
+            "_id": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "roles",
+            "containerId": "41d9aa9c-82aa-4e34-a5f6-268833271572",
+            "created": "2023-07-12T16:05:10.303Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "41d9aa9c-82aa-4e34-a5f6-268833271572",
+            "name": "autenticacion",
+            "containerId": "",
+            "created": "2023-07-12T16:05:10.307Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "f38bf767-9aca-41c0-a7a2-71d7125ff879",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "index",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/roles",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-12T16:05:10.306Z",
+            "modified": "2023-07-20T22:40:18.586Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e6476738-aa76-423b-bf18-46ac2eb3112d",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "b0c1270c-d4b2-455d-99a8-7d6636e0f66d",
+            "name": "index",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/auditoria",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-12T16:05:10.307Z",
+            "modified": "2023-07-19T15:27:10.593Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNjg5ODY2ODA4IiwibmJmIjoiMTY4OTc4MDQwOCIsImlhdCI6IjE2ODk3ODA0MDgiLCJqdGkiOjI5fQ==.5178502c220cb1a8571c9cce73be38af5be36df6bad8ec381cbb3ffdd24fb5e5"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b9f3982f-4b29-41c9-846a-153aabdf0e4a",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "show",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/roles/show/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-12T16:05:10.314Z",
+            "modified": "2023-07-21T11:14:04.009Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "965fe088-4cf1-4a1b-9b47-30b0600bd097",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "b0c1270c-d4b2-455d-99a8-7d6636e0f66d",
+            "name": "show_request",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/auditoria/show_request",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-19T14:21:43.237Z",
+            "modified": "2023-07-19T15:32:43.809Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNjg5ODY2ODA4IiwibmJmIjoiMTY4OTc4MDQwOCIsImlhdCI6IjE2ODk3ODA0MDgiLCJqdGkiOjI5fQ==.5178502c220cb1a8571c9cce73be38af5be36df6bad8ec381cbb3ffdd24fb5e5"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accion\":\"cre\",\n  \"_usuario\":1,\n  \"_fecha_ini\":\"11-07-2023\",\n  \"_fecha_fin\":\"12-07-2023\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7b52994e-17c4-4bc6-9a37-822e491e1f4d",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "store",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/roles",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-12T16:05:10.318Z",
+            "modified": "2023-07-19T15:07:59.672Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNjg5ODY0MzUzIiwibmJmIjoiMTY4OTc3Nzk1MyIsImlhdCI6IjE2ODk3Nzc5NTMiLCJqdGkiOjI2fQ==.b05878af2525823e2f548bb9d354c1acfde23ae3325bd3d2b9655662beb5d6bdeyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNjg5ODY0MzUzIiwibmJmIjoiMTY4OTc3Nzk1MyIsImlhdCI6IjE2ODk3Nzc5NTMiLCJqdGkiOjI2fQ==.b05878af2525823e2f548bb9d354c1acfde23ae3325bd3d2b9655662beb5d6bd"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"rol\": \"fg\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9463b808-d783-453f-ae83-5d3121d51b6c",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "64d845e2-8f0d-4626-ac8e-b0fc131ea645",
+            "name": "login",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/token/login",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-07-12T16:05:10.319Z",
+            "modified": "2023-07-20T22:38:59.123Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\": \"admin\",\n  \"password\": \"fa9100bc7e4ea13059ba392ebd754f7b\",\n  \"terminal\": \"pc\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ba26c3c-71eb-4009-a8a6-71bbf62f186e",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "show_request",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/roles/show_request",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-07-12T16:05:10.320Z",
+            "modified": "2023-07-20T22:57:19.480Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"estado\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8c61ec87-899d-493c-b9d4-d441df0d966d",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "update",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/roles/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-07-12T16:05:10.326Z",
+            "modified": "2023-07-21T11:18:21.292Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"rol\": \"administrador\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "08a2a99b-43d1-4276-82d3-be2952214cd9",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "act_rol",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/roles/act_rol/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-07-12T16:49:44.582Z",
+            "modified": "2023-07-20T22:56:32.092Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9cbe7b74-5550-40b6-859f-16bd19460ab1",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "a3d3c015-959a-4872-a16f-8366bc30c46e",
+            "name": "desact_rol",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/roles/desact_rol/1",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-07-12T16:49:56.429Z",
+            "modified": "2023-07-21T11:18:47.457Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1bf07bd4-a8dc-43fd-97d4-109a76e2b564",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "register_new",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/register_new",
+            "method": "POST",
+            "sortNum": 75000,
+            "created": "2023-07-12T16:05:10.331Z",
+            "modified": "2023-07-21T12:33:10.195Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Angel\",\n  \"usuario\": \"aparra\",\n  \"rol\": 1,\n  \"password\": \"fa9100bc7e4ea13059ba392ebd754f7b\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8698a90e-199f-4cdf-8e30-53bb194dceef",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "64d845e2-8f0d-4626-ac8e-b0fc131ea645",
+            "name": "logout",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/token/logout",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-07-12T16:05:10.332Z",
+            "modified": "2023-07-21T00:19:25.909Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNjg5OTg1MTU1IiwibmJmIjoiMTY4OTg5ODc1NSIsImlhdCI6IjE2ODk4OTg3NTUiLCJqdGkiOjE0M30=.36b2f43c8c4a63dbb779352d4804c161510af3e57bb0ca3d3ea3dee8b8506af7"
+                }
+            ],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "lvaro.parra@uic.cu",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "Apc2000**",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "05a074bf-6d96-47df-a935-2a64af1090b6",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "index",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/users",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2023-07-12T16:05:10.333Z",
+            "modified": "2023-07-20T22:53:51.432Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3b17b6b2-13b6-47b0-ac00-ede895f0b6e9",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "update",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/users/2",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2023-07-12T16:05:10.334Z",
+            "modified": "2023-07-21T11:19:55.237Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Alberto regincos la rosa\",\n  \"usuario\": \"aregincos\",\n  \"rol\": \"administrador\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bad1413a-d8ac-46e4-b5cf-ea8d1ad9a097",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "Cambiar contraseña_new",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/users/cambiar_password_new/nueva",
+            "method": "PUT",
+            "sortNum": 123750,
+            "created": "2023-07-12T16:05:10.335Z",
+            "modified": "2023-07-20T23:59:20.749Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"fa9100bc7e4ea13059ba392ebd754f7b\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "abbbfc27-6e78-46a5-86bc-87671a5ad35f",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "reset_password",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/users/reset_password/reset/1",
+            "method": "PUT",
+            "sortNum": 124375,
+            "created": "2023-07-19T18:46:47.520Z",
+            "modified": "2023-07-21T00:12:35.480Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "51c859ee-d3e1-4b9d-95bc-6409c67e05d5",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "desactivar_usuario",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/users/desact_user/1",
+            "method": "PUT",
+            "sortNum": 125000,
+            "created": "2023-07-12T16:05:10.336Z",
+            "modified": "2023-07-21T11:12:50.942Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ac306ae0-2345-4a78-86b5-68297d0a1566",
+            "colId": "d0d109b7-c712-4036-9c99-09aaca175a2a",
+            "containerId": "381e2810-22f2-4c4d-b726-3ddcb6cdc5f2",
+            "name": "activar_usuario",
+            "url": "http://10.10.42.15/marco_trabajo/public/api/users/act_user/1",
+            "method": "PUT",
+            "sortNum": 127500,
+            "created": "2023-07-12T16:05:10.337Z",
+            "modified": "2023-07-21T00:01:23.850Z",
+            "headers": [
+                {
+                    "name": "X-Authorization",
+                    "value": "eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ==.eyJpc3MiOiJjZGFzaSIsInN1YiI6bnVsbCwiYXVkIjoicGMiLCJleHAiOiIxNzIxNTE1MTIyIiwibmJmIjoiMTY4OTg5MjcyMiIsImlhdCI6IjE2ODk4OTI3MjIiLCJqdGkiOjEzOH0=.d5c6e86713eda31062daaba1d00911e80dac201f8c66da3a9f13ad45242a8024"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

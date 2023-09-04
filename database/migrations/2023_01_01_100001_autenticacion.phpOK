@@ -1,0 +1,58 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('autenticacion.rols', function (Blueprint $table) {
+            $table->id();
+            $table->string('rol')->unique();
+            $table->boolean('estado')->default(true);
+            $table->timestamps();
+        });
+
+        Schema::create('autenticacion.users', function (Blueprint $table) {
+            $table->id();
+            $table->string('nombres');
+            $table->string('usuario')->unique();
+            $table->string('password');
+            $table->unsignedBigInteger('rol_id');
+            $table->foreign('rol_id')->references('id')->on('rols')->nullOnDelete();
+            $table->boolean('estado')->default(true);
+            $table->rememberToken();
+            $table->timestamps();
+        });
+
+        Schema::create('autenticacion.tokens', function (Blueprint $table) {
+            $table->id();
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users')->nullOnDelete();
+            $table->string('dispositivo', 100);
+
+            $table->string('timezone', 100)->default('America/Havana');
+            $table->datetime('created_at');
+            $table->datetime('updated_at')->nullable()->default(null);
+            $table->datetime('used_at')->nullable()->default(null);
+
+            $table->string('validez_ini', 50)->default(env('VALIDEZ_INI', '+0 min'));
+            $table->string('validez_inter', 50)->default(env('VALIDEZ_INTER', '+30 min'));
+            $table->string('validez_fin', 50)->default(env('VALIDEZ_FIN', '+1 day'));
+
+            $table->text('token')->nullable()->default(null);
+
+            $table->unique(['user_id', 'dispositivo']);
+            $table->index(['user_id', 'dispositivo']);
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('autenticacion.tokens');
+        Schema::dropIfExists('autenticacion.users');
+        Schema::dropIfExists('autenticacion.rols');
+    }
+};
